@@ -1,0 +1,43 @@
+clientes
+realizan la siguiente operación PQR
+PQR = peticion, queja reclamo
+
+toda pqr debe generar un numero de radicado unico
+
+Solo se puede registrar un reclamo sobre una petición 
+o queja realizada hace más de 5 días, o que tenga respuesta 
+del área administrativa y cuya respuesta no sea de agrado al usuario.
+
+
+tablas nosql: 
+
+hay una coleccion llamada Usuarios
+Usuarios
+    dentro de esa coleccion hay un documento llamado Clientes
+    dentro de el documento clientes hay una subcoleccion llamada
+    messages y esta contiene 3 subcolecciones:
+    peticiones
+      id_peticion
+      timestap
+      name
+      msg
+      respuesta
+    quejas
+      id_queja
+      timestap
+      name
+      msg
+      respuesta
+    reclamos
+      id_reclamo
+      name
+      msg
+      respuesta
+    
+    y otro documento llamado Adminarea
+
+
+     
+   
+
+

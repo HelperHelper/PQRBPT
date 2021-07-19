@@ -1,0 +1,41 @@
+{
+    "Usuarios" : {
+      "clientes" : {
+        "messages" : {
+          "peticiones" : {
+            "id_peticion" : 0,
+            "name" : "ingre el nombre",
+            "msg": "ingrese peticion",
+            "timestap" : "15/07/2021",
+            "numRadicado": 0
+          },
+          "quejas" : {
+            "id_queja" : 0,
+            "name" : "ingre el nombre",
+            "msg": "ingrese peticion",
+            "timestap" : "15/07/2021",
+            "numRadicado": 0
+          },
+          "reclamos" : {
+            "id_reclamo": 0,
+            "id_peticion" : 0,
+            "id_queja" : 0, 
+            "name" : "ingre el nombre",
+            "msg": "ingrese peticion",
+            "timestap" : "15/07/2021",
+            "numRadicado": 0
+          },
+          "respuestas" : {
+            "id_respuesta": 0,
+            "id_peticion" : 0,
+            "id_queja" : 0, 
+            "name" : "ingre el nombre",
+            "msg": "ingrese peticion",
+            "timestap" : "15/07/2021",
+            "numRadicado": 0
+          }
+        }
+      }
+    }
+  }
+  
